@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vocabulary vs Report Graph</title>
+<style>
+  :root { --bg:#fff; --fg:#1f2430; --muted:#6b7280; --explicit:#2563eb; --implicit:#f59e0b; --case:#0f766e; --line:#9ca3af; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#12151c; --fg:#e5e7eb; --muted:#9ca3af; --explicit:#60a5fa; --implicit:#fbbf24; --case:#2dd4bf; --line:#6b7280; } }
+  body { margin:0; padding:16px; background:var(--bg); color:var(--fg); font:14px/1.4 system-ui, sans-serif; }
+  h1 { font-size:20px; margin:0 0 4px; } p.sub { margin:0 0 12px; color:var(--muted); }
+  .legend span { display:inline-block; margin-right:16px; } .dot { display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:4px; }
+  svg { width:100%; height:auto; max-width:1100px; display:block; }
+  .edge { fill:none; stroke-linecap:round; transition:opacity .15s; } .edge.implicit { stroke-dasharray:5 4; }
+  text { fill:var(--fg); font-size:12px; } .count { fill:var(--muted); font-size:11px; }
+  .dim { opacity:.08; } g.node { cursor:pointer; }
+</style>
+</head>
+<body>
+<h1>GenAI vocabulary ↔ research report</h1>
+<p class="sub">Left: vocabulary terms (bar = usage frequency). Right: the ten use cases of the report. A line means the term is used in that
+section; line width = number of occurrences. Hover a node to highlight its links.</p>
+<p class="legend"><span><i class="dot" style="background:var(--explicit)"></i>explicit — the term itself is written</span>
+<span><i class="dot" style="background:var(--implicit)"></i>implicit — the idea is present through related words (dashed)</span></p>
+<svg id="chart" role="img" aria-label="Bipartite graph of vocabulary terms and report sections"></svg>
+<script>
+const DATA = /*DATA*/null;
+const NS = 'http://www.w3.org/2000/svg';
+const el = (name, attrs = {}, parent) => { const n = document.createElementNS(NS, name); for (const k in attrs) n.setAttribute(k, attrs[k]); if (parent) parent.appendChild(n); return n; };
+
+const terms = DATA.terms.filter(t => t.explicit + t.implicit > 0).sort((a, b) => (b.explicit + b.implicit) - (a.explicit + a.implicit));
+const sections = DATA.sections;
+const ROW = 22, TOP = 20, W = 1100, LEFT_X = 330, RIGHT_X = 760, BAR_MAX = 150;
+const H = TOP * 2 + Math.max(terms.length * ROW, sections.length * 60);
+const svg = document.getElementById('chart');
+svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+
+const maxTotal = Math.max(...terms.map(t => t.explicit + t.implicit));
+const termY = i => TOP + i * ROW + ROW / 2;
+const caseY = i => TOP + (H - TOP * 2) * (i + 0.5) / sections.length;
+const edgeLayer = el('g', {}, svg);
+const nodeLayer = el('g', {}, svg);
+const links = [];
+
+terms.forEach((t, i) => {
+  const y = termY(i);
+  const g = el('g', { class: 'node', 'data-term': i }, nodeLayer);
+  el('text', { x: LEFT_X - BAR_MAX - 60, y: y + 4, 'text-anchor': 'end' }, g).textContent = t.term;
+  const ew = BAR_MAX * t.explicit / maxTotal, iw = BAR_MAX * t.implicit / maxTotal;
+  const x0 = LEFT_X - BAR_MAX - 50;
+  el('rect', { x: x0, y: y - 6, width: ew, height: 12, fill: 'var(--explicit)' }, g);
+  el('rect', { x: x0 + ew, y: y - 6, width: iw, height: 12, fill: 'var(--implicit)' }, g);
+  el('text', { x: x0 + ew + iw + 6, y: y + 4, class: 'count' }, g).textContent = `${t.explicit} / ${t.implicit}`;
+  el('circle', { cx: LEFT_X, cy: y, r: 4, fill: 'var(--fg)' }, g);
+
+  t.sections.forEach(s => {
+    const j = sections.findIndex(c => c.id === s.section);
+    [['explicit', s.explicit], ['implicit', s.implicit]].forEach(([kind, n]) => {
+      if (!n) return;
+      const path = el('path', {
+        d: `M${LEFT_X},${y} C${(LEFT_X + RIGHT_X) / 2},${y} ${(LEFT_X + RIGHT_X) / 2},${caseY(j)} ${RIGHT_X},${caseY(j)}`,
+        class: `edge ${kind}`, stroke: `var(--${kind})`, 'stroke-width': Math.min(1 + n * 0.8, 7), opacity: .55
+      }, edgeLayer);
+      links.push({ path, i, j });
+    });
+  });
+});
+
+sections.forEach((c, j) => {
+  const g = el('g', { class: 'node', 'data-case': j }, nodeLayer);
+  el('circle', { cx: RIGHT_X, cy: caseY(j), r: 6, fill: 'var(--case)' }, g);
+  el('text', { x: RIGHT_X + 14, y: caseY(j) + 4 }, g).textContent = `${c.id}. ${c.title}`;
+});
+
+const highlight = (test) => links.forEach(l => l.path.classList.toggle('dim', !test(l)));
+nodeLayer.querySelectorAll('g.node').forEach(g => {
+  const isTerm = g.hasAttribute('data-term');
+  const idx = Number(g.getAttribute(isTerm ? 'data-term' : 'data-case'));
+  g.addEventListener('mouseenter', () => highlight(l => (isTerm ? l.i : l.j) === idx));
+  g.addEventListener('mouseleave', () => highlight(() => true));
+});
+</script>
+</body>
+</html>

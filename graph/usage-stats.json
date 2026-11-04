@@ -1,0 +1,2611 @@
+﻿{
+    "sections":  [
+                     {
+                         "id":  1,
+                         "title":  "Code generation and developer assistants"
+                     },
+                     {
+                         "id":  2,
+                         "title":  "Customer support automation"
+                     },
+                     {
+                         "id":  3,
+                         "title":  "Enterprise knowledge search and Q\u0026A"
+                     },
+                     {
+                         "id":  4,
+                         "title":  "Content creation and marketing"
+                     },
+                     {
+                         "id":  5,
+                         "title":  "Healthcare: clinical documentation and patient support"
+                     },
+                     {
+                         "id":  6,
+                         "title":  "Legal and document processing"
+                     },
+                     {
+                         "id":  7,
+                         "title":  "Finance and banking"
+                     },
+                     {
+                         "id":  8,
+                         "title":  "Education and tutoring"
+                     },
+                     {
+                         "id":  9,
+                         "title":  "Science and drug discovery"
+                     },
+                     {
+                         "id":  10,
+                         "title":  "Agents and workflow automation, including data analytics"
+                     }
+                 ],
+    "terms":  [
+                  {
+                      "term":  "LLM",
+                      "explicit":  5,
+                      "implicit":  16,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  2,
+                                           "implicit":  5
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  1,
+                                           "implicit":  4
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Token",
+                      "explicit":  2,
+                      "implicit":  7,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Context window",
+                      "explicit":  2,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Inference",
+                      "explicit":  0,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Multimodal",
+                      "explicit":  1,
+                      "implicit":  15,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  10
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Knowledge cutoff",
+                      "explicit":  1,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Temperature",
+                      "explicit":  0,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Benchmark",
+                      "explicit":  1,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Prompt",
+                      "explicit":  7,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  2,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "System prompt",
+                      "explicit":  2,
+                      "implicit":  3,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Few-shot",
+                      "explicit":  1,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Chain-of-thought",
+                      "explicit":  0,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Structured output",
+                      "explicit":  1,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Prompt caching",
+                      "explicit":  0,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Hallucination",
+                      "explicit":  4,
+                      "implicit":  6,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Grounding",
+                      "explicit":  4,
+                      "implicit":  7,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  3
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  1,
+                                           "implicit":  4
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "RAG",
+                      "explicit":  3,
+                      "implicit":  3,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Embedding",
+                      "explicit":  2,
+                      "implicit":  0,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Vector database",
+                      "explicit":  2,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Chunking",
+                      "explicit":  3,
+                      "implicit":  0,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Semantic search",
+                      "explicit":  1,
+                      "implicit":  4,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Reranking",
+                      "explicit":  2,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Fine-tuning",
+                      "explicit":  2,
+                      "implicit":  6,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  4
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "LoRA",
+                      "explicit":  1,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "RLHF",
+                      "explicit":  0,
+                      "implicit":  0,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Distillation",
+                      "explicit":  0,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Quantization",
+                      "explicit":  0,
+                      "implicit":  3,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Agent",
+                      "explicit":  22,
+                      "implicit":  27,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  4,
+                                           "implicit":  7
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  7,
+                                           "implicit":  3
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  6
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  5
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  10,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Tool calling",
+                      "explicit":  2,
+                      "implicit":  14,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  3
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  3
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  7
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "MCP",
+                      "explicit":  1,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  2
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Orchestration",
+                      "explicit":  1,
+                      "implicit":  7,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  6
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Copilot",
+                      "explicit":  8,
+                      "implicit":  18,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  3,
+                                           "implicit":  4
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  2,
+                                           "implicit":  4
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  2,
+                                           "implicit":  3
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Human-in-the-loop",
+                      "explicit":  2,
+                      "implicit":  6,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  1,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  3
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Evals",
+                      "explicit":  5,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "LLM-as-a-judge",
+                      "explicit":  1,
+                      "implicit":  1,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Guardrails",
+                      "explicit":  3,
+                      "implicit":  4,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Prompt injection",
+                      "explicit":  3,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Jailbreak",
+                      "explicit":  2,
+                      "implicit":  3,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Red teaming",
+                      "explicit":  1,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "PII",
+                      "explicit":  1,
+                      "implicit":  11,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  6
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Data residency",
+                      "explicit":  3,
+                      "implicit":  4,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Observability",
+                      "explicit":  1,
+                      "implicit":  3,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Latency",
+                      "explicit":  4,
+                      "implicit":  5,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  1
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Cost per token",
+                      "explicit":  2,
+                      "implicit":  6,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  1
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  1,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  },
+                  {
+                      "term":  "Model drift",
+                      "explicit":  0,
+                      "implicit":  2,
+                      "sections":  [
+                                       {
+                                           "section":  1,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  2,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  3,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  4,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  5,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  6,
+                                           "explicit":  0,
+                                           "implicit":  2
+                                       },
+                                       {
+                                           "section":  7,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  8,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  9,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       },
+                                       {
+                                           "section":  10,
+                                           "explicit":  0,
+                                           "implicit":  0
+                                       }
+                                   ]
+                  }
+              ]
+}
